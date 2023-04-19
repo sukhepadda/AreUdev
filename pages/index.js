@@ -71,7 +71,7 @@ export default function Home() {
           <h2 className="h5 m-2 text-info" id="idealnumberofhourstitle">Ideal Recomendations</h2>
           <p className="lead text-white m-2" id="idealnumberofhoursstringptag">4 hours per week of tutoring and 12 hours per week of practice</p>
         </div>
-        <div className=''>
+        <div className='input-group'>
           <input className="m-2 form-control" type="number" min="0" id="inputNumbereveryweektutor" placeholder="everyweektutor hours" onChange={e => setTutorHour(e.target.value)} />
           <input className="m-2 form-control" type="number" min="0" id="inputNumbereveryweekpractice" placeholder="everyweekpractice hours" onChange={e => setPracticeHour(e.target.value)} />
         </div>
